@@ -125,7 +125,7 @@ export default function ChatPage() {
           disabled={!inputValue.trim() || isLoading}
           className="bg-blue-500 text-white p-2 rounded-full disabled:opacity-50 disabled:cursor-not-allowed hover:bg-blue-600 transition-colors"
         >
-          <Send size={20} />
+          <Send size={20} color="black"/>
         </button>
       </form>
     </main>
